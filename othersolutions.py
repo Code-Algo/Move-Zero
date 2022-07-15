@@ -19,7 +19,7 @@ class IdkMoveZero():
     def combine_lists(self):
         self.c = self.b + self.a
         return self.c
-x = [0, 1, 0, 3, 12]
+#x = [0, 1, 0, 3, 12]
 idk = IdkMoveZero()
 def main():
     print(idk.list_zero([0, 1, 0, 3, 12]))
@@ -27,6 +27,6 @@ def main():
     print(idk.combine_lists())
     #return idk.list_zero([1,2,3,4,5,6,0,0,0])
     #return idk.combine_lists([1,2,3,4,5,6,0,0,0])
-print(main())
+main()
 
 ## it runs like a battered diesel but she works
