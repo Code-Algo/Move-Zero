@@ -7,14 +7,14 @@ class IdkMoveZero():
         for i in x:
             if i == 0:
                 self.a.append(i)
-        return(self.a)
+        return self.a
 #print(list_zero([1,2,3,4,5,6,0,0,0]))
     
     def other_nums(self, x):
         for e in x:
             if e != 0:
                 self.b.append(e)
-        return(self.b)
+        return self.b
     
     def combine_lists(self):
         self.c = self.b + self.a
